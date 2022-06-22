@@ -7,3 +7,7 @@ interface Teacher {
     location: string;
     [others: string]: any;
 }
+
+interface Directors extends Teacher {
+    numberOfReports: number;
+}
