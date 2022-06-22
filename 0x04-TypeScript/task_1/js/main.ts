@@ -20,4 +20,30 @@ function printTeacher(firstName: string, lastName: string) {
     return (firstName[0] + ". " + lastName);
 }
 
-// console.log(printTeacher('John', "Doe"));
+
+interface StudentInterface {
+    firstName: string;
+    lastName: string;
+}
+
+interface StudentConstructor {
+    new(f: string, l: string): {firstName: string, lastName: string};
+}
+
+class StudentClass implements StudentInterface {
+    firstName: string;
+    lastName: string;
+
+    constructor(fname: string, lname: string) {
+        this.firstName = fname;
+        this.lastName = lname;
+    }
+
+    workOnHomework(): string {
+        return "Currently working";
+    }
+
+    displayName(): string {
+        return (this.firstName);
+    }
+}
