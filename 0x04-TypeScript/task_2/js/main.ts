@@ -38,14 +38,37 @@ class Teacher implements TeacherInterface {
     }
 }
 
-function createEmployee(salary: number | string) {
+function createEmployee(salary: number | string) : Teacher | Director {
     if (salary < 500){
-        return "Teacher";
+        return new Teacher();
     }
-    return "Director";
+    return new Director();
 }
 
-// test function
-// console.log(createEmployee(200));
-// console.log(createEmployee("1000"));
-// console.log(createEmployee("$500"));
+
+function isDirector(employee: Teacher | Director) {
+    return (employee instanceof Director);
+}
+
+
+function executeWork(employee: Teacher | Director): void{
+    if (employee instanceof Teacher){
+        console.log(employee.workTeacherTasks());
+    }
+    else {
+        console.log(employee.workDirectorTasks());
+    }
+}
+
+
+type Subjects = "Math" | "History"; 
+
+function teachClass(todayClass: Subjects): String {
+    if (todayClass === "Math")
+    {
+        return "Teaching Math"
+    }
+    else{
+        return "Teaching History"
+    }
+}
