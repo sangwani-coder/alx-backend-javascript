@@ -32,7 +32,7 @@ After working on this project I learned:
 [task_1](./task_1)
  
 * **5. Advanced types Part 1**
-[task_2](./task_2)
+[task_2](./task_2
  
 * **6. Creating functions specific to employees**
 [task_2](./task_2)
@@ -53,4 +53,4 @@ After working on this project I learned:
 [task_5](./task_5)
 
 
-Author: Sangwani Peter Zyambo[Twitter: @peter_zyambo]
+Author: Sangwani Peter Zyambo: Twitter: @peter_zyambo
