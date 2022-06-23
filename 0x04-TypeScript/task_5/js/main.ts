@@ -1,10 +1,10 @@
 export interface MajorCredits {
-    brand: 'major'
+    brand: string
     credits: number;
 }
 
 export interface MinorCredits {
-    brand: "minor"
+    brand?: string
     credits: number
 }
 
@@ -17,4 +17,3 @@ export const sumMinorCredits = (subject1: MinorCredits, subject2: MinorCredits):
     return subject1.credits + subject2.credits;
   }
 
-console.log(sumMajorCredits(40, 30))
