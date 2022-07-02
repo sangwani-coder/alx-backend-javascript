@@ -5,7 +5,7 @@
 * [ ] [0x01. ES6 Promises]()
 * [ ] [0x02. ES6 classes]()
 * [ ] [0x03. ES6 data manipulation]()
-* [x] [0x04. Typescript](./0x04-typescript)
+* [x] [0x04. TypeScript](./0x04-TypeScript)
 
 
 Author: Sangwani Peter Zyambo[Twitter: @peter_zyambo]
