@@ -25,3 +25,9 @@
 | [10-loops.js](./10-loops.js) | use ES6's **for...of** operator |
 | [11-createEmployeesObject.js](./11-createEmployeesObject.js) | return an Object from function |
 | [12-createReportObject.js](./12-createReportObject.js) | Create an Object |
+| [100-createIteratorObject.js](./100-createIteratorObject.js) | Iterate through objects |
+| [101-iterateThroughObject.js](./101-iterateThroughObject.js) | Iterate through an object|
+| [package.json ](././package.json) | Configuration file| 
+| [babel.config.js](./babel.config.js)| Configuration file |
+| [.eslintrc.js](./.eslintrc.js)| Configuration file |
+
