@@ -4,10 +4,9 @@ export default function cleanSet(set, startString) {
     return '';
   }
   for (const value of set.values()) {
-
     if (typeof value === 'string' && value.startsWith(startString)) {
       const subStr = value.substring(startString.length);
-      
+
       if (subStr && subStr !== value) {
         parts.push(subStr);
       }
