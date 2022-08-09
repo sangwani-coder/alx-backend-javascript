@@ -21,7 +21,7 @@
 ## Tasks
 
 | Task | File |
-|--------------|----------------------|-
+|--------------|----------------------|
 |Executing basic javascript with Node JS|[x][0-console.js](./0-console.js)|
 |Using process stdin |[][1-stdin.js](1-stdin.js) |
 |Reading a file synchronously with Node JS|[][2-read_file.js](./2-read_file.js)|
