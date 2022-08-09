@@ -7,8 +7,8 @@ function countStudents(path) {
   } catch (err) {
     throw new Error('Cannot load the database');
   }
-  const chainStudents = content.split('\n');
-  let students = chainStudents.filter((item) => item);
+  const combineStudents = content.split('\n');
+  let students = combineStudents.filter((item) => item);
 
   const NUMBER_OF_STUDENTS = students.length ? students.length - 1 : 0;
   console.log(`Number of students: ${NUMBER_OF_STUDENTS}`);
