@@ -13,13 +13,13 @@ app.get('/', (req, res) => {
   res.send('Hello Holberton School!');
 });
 
-app.get('/students', (req, res) => {
-  res.write('This is the list of our students\n');
+app.get('/students', async (req, res) => {
   try {
-    const students = countStudents(args.toString());
-    res.send(`${students}`);
+    const students = await countStudents(args.toString());
+    res.write('This is the list of our students\n');
+    res.end(`${students}`);
   } catch (error) {
-    res.send(error.message);
+    res.end(error.message);
   }
 });
 
