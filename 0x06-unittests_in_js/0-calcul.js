@@ -1,4 +1,4 @@
-module.exports = function calculateber(a, b) {
+module.exports = function calculateNumber(a, b) {
   const A = Number(a);
   const B = Number(b);
 
